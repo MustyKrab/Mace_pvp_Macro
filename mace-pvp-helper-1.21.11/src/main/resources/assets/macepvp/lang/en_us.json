@@ -1,0 +1,15 @@
+{
+  "key.categories.macepvp": "Mace PvP",
+  "key.macepvp.open_config": "Open Mace PvP menu",
+  "key.macepvp.stun_slam": "Stun slam combo (axe → spear → mace, 1 tick)",
+  "key.macepvp.breach_swap": "Breach swap (attack + swap to Breach mace, 1 tick)",
+  "key.macepvp.apply_preset_1": "Apply preset 1",
+  "key.macepvp.apply_preset_2": "Apply preset 2",
+  "key.macepvp.apply_preset_3": "Apply preset 3",
+  "key.macepvp.apply_preset_4": "Apply preset 4",
+  "key.macepvp.apply_preset_5": "Apply preset 5",
+  "key.macepvp.apply_preset_6": "Apply preset 6",
+  "key.macepvp.apply_preset_7": "Apply preset 7",
+  "key.macepvp.apply_preset_8": "Apply preset 8",
+  "key.macepvp.apply_preset_9": "Apply preset 9"
+}

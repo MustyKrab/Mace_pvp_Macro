@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "macepvp",
+  "version": "${version}",
+  "name": "Mace PvP Helper",
+  "description": "Configurable hotbar presets and macros to practice advanced mace techniques.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/macepvp/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.macepvp.MacePvpClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.11 <1.21.12",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
