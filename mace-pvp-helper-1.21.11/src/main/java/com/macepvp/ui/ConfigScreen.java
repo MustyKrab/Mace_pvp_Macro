@@ -121,7 +121,12 @@ public class ConfigScreen extends Screen {
 
     @Override
     public void render(DrawContext ctx, int mouseX, int mouseY, float delta) {
-        this.renderBackground(ctx, mouseX, mouseY, delta);
+        // NOTE: We intentionally do NOT call this.renderBackground() here.
+        // Lunar Client draws its own blur effect when a screen opens and throws
+        // "Can only blur once per frame" if we try to blur again. Skipping the
+        // explicit background call lets Lunar's existing blur show through and
+        // our widgets render on top normally. On vanilla Fabric the screen still
+        // gets its dim overlay from the Screen superclass defaults.
         super.render(ctx, mouseX, mouseY, delta);
 
         ctx.drawCenteredTextWithShadow(this.textRenderer, this.title,
