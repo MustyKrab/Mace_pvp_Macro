@@ -71,7 +71,7 @@ public class KeybindManager {
         }
 
         while (stunSlam.wasPressed()) {
-            com.macepvp.macro.StunSlamCombo.execute();
+            com.macepvp.macro.StunSlamCombo.start();
         }
 
         while (breachSwap.wasPressed()) {
